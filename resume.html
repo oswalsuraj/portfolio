@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suraj Oswal - BCA Graduate & Web Developer Portfolio" />
+  <meta name="keywords" content="Suraj Oswal, Web Developer, BCA, Portfolio, HTML, CSS, JavaScript, PHP" />
+  <title>Suraj Oswal | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;0,400;1,100..900;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav id="navbar">
+  <span class="nav-logo">SURAJ</span>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-btn" id="themeToggle" title="Toggle theme">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#skills" class="mobile-link">Skills</a>
+  <a href="#education" class="mobile-link">Education</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#certifications" class="mobile-link">Certifications</a>
+  <a href="#resume" class="mobile-link">Resume</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-inner">
+    <div class="hero-badge"><span></span> Available for opportunities</div>
+    <h1 class="hero-name">Suraj<br><span class="accent-word">Oswal</span></h1>
+    <div class="hero-typing" id="typingText">
+      <span id="typed"></span><span class="typing-cursor"></span>
+    </div>
+    <p class="hero-desc">
+      BCA Graduate passionate about crafting clean, performant web experiences. Turning ideas into digital reality, one line of code at a time.
+    </p>
+    <div class="hero-btns">
+      <a href="#" class="btn btn-primary" download>⬇ Download Resume</a>
+      <a href="#contact" class="btn btn-secondary">✉ Contact Me</a>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div>
+          <div class="avatar-ring" style="margin:0 auto;">
+            <div class="avatar-inner"></div>
+            <!-- 👨‍💻 -->
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">8+</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">2</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">2025</div>
+              <div class="stat-label">BCA Graduate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-title">Passionate Web<br>Developer</h2>
+        <p>Hi! I'm Suraj Oswal, a BCA graduate with a strong foundation in web development and software engineering. I enjoy building user-centric web applications that are both functional and visually appealing.</p>
+        <p>My goal is to leverage my technical skills and academic knowledge to contribute meaningfully to innovative projects, continuously grow as a developer, and create impactful digital solutions.</p>
+        <p>When I'm not coding, I'm exploring new technologies and sharpening my problem-solving skills.</p>
+        <div class="about-tags">
+          <span class="tag">Web Developer</span>
+          <span class="tag">Problem Solver</span>
+          <span class="tag">BCA Graduate</span>
+          <span class="tag">Quick Learner</span>
+          <span class="tag">Team Player</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Technical Skills</div>
+      <h2 class="section-title">What I Work With</h2>
+      <p class="section-subtitle">A range of languages, frameworks, and tools I've worked with throughout my academic and project journey.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal" data-delay="0">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">🌐</span> HTML5</div>
+          <span class="skill-pct">92%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="50">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">🎨</span> CSS3</div>
+          <span class="skill-pct">88%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="100">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">⚡</span> JavaScript</div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="150">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">🐘</span> PHP</div>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="200">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">🗄️</span> MySQL</div>
+          <span class="skill-pct">78%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="250">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">☕</span> Java</div>
+          <span class="skill-pct">72%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="300">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">⚙️</span> C / C++</div>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="350">
+        <div class="skill-top">
+          <div class="skill-name"><span class="skill-icon">🐙</span> Git & GitHub</div>
+          <span class="skill-pct">82%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Education</div>
+      <h2 class="section-title">Academic Journey</h2>
+      <p class="section-subtitle">My educational path that shaped my technical foundation and professional outlook.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot">🎓</div>
+        <div class="tl-content">
+          <div class="tl-year">2022 – 2025</div>
+          <div class="tl-title">Bachelor of Computer Applications (BCA)</div>
+          <div class="tl-sub">Specialized in Web Development, Database Management, and Software Engineering. Graduated with strong practical and theoretical knowledge.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot">🛠️</div>
+        <div class="tl-content">
+          <div class="tl-year">ITI</div>
+          <div class="tl-title">Industrial Training Institute</div>
+          <div class="tl-sub">Gained hands-on technical training in computer hardware, networking, and foundational programming concepts.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot">📚</div>
+        <div class="tl-content">
+          <div class="tl-year">12th Standard(2022)</div>
+          <div class="tl-title">Higher Secondary Education</div>
+          <div class="tl-sub">Completed higher secondary schooling with Science stream, building a strong analytical and mathematical foundation. </div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot">🏫</div>
+        <div class="tl-content">
+          <div class="tl-year">10th Standard(2020)</div>
+          <div class="tl-title">Secondary Education</div>
+          <div class="tl-sub">Completed secondary schooling with distinction, developing a strong work ethic and disciplined study habits.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Projects</div>
+      <h2 class="section-title">Things I've Built</h2>
+      <p class="section-subtitle">A selection of real-world projects that demonstrate my skills and problem-solving ability.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb p1">🏠</div>
+        <div class="project-body">
+          <span class="project-tag">Full Stack · Live</span>
+          <div class="project-title">ApnaPG.in</div>
+          <div class="project-desc">A Paying Guest listing and management platform allowing landlords to list rooms and tenants to search for PG accommodations near them with filtering options.</div>
+          <div class="project-stack">
+            <span class="stack-tag">HTML</span><span class="stack-tag">CSS</span>
+            <span class="stack-tag">JavaScript</span><span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://apnapg.in" target="_blank" class="project-link link-live">🔗 Live Site</a>
+            <a href="#" class="project-link link-code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-thumb p2">🎵</div>
+        <div class="project-body">
+          <span class="project-tag">Frontend · Clone</span>
+          <div class="project-title">Spotify Clone</div>
+          <div class="project-desc">A pixel-perfect Spotify UI clone with working music player controls, playlist browsing, responsive design, and dynamic song listing using HTML, CSS, and JavaScript.</div>
+          <div class="project-stack">
+            <span class="stack-tag">HTML</span><span class="stack-tag">CSS</span>
+            <span class="stack-tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link link-live">▶ Demo</a>
+            <a href="#" class="project-link link-code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-thumb p3">📋</div>
+        <div class="project-body">
+          <span class="project-tag">Full Stack · Academic</span>
+          <div class="project-title">Quiz Management System</div>
+          <div class="project-desc">A comprehensive web application for managing online quizzes with admin panel for creating questions, student login, real-time evaluation, and result tracking with MySQL backend.</div>
+          <div class="project-stack">
+            <span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span>
+            <span class="stack-tag">HTML</span><span class="stack-tag">CSS</span><span class="stack-tag">JS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link link-live">▶ Demo</a>
+            <a href="#" class="project-link link-code">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CERTIFICATIONS ── -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Certifications</div>
+      <h2 class="section-title">Recognition & Training</h2>
+      <p class="section-subtitle">Certifications that validate my skills and commitment to continuous learning.</p>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon">🖥️</div>
+        <div class="cert-title">Computer Applications & Web Development</div>
+        <div class="cert-org">STP Computer Education</div>
+        <div class="cert-desc">Comprehensive certification covering computer fundamentals, office applications, web development basics, and practical programming skills.</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">🚀</div>
+        <div class="cert-title">UNXT Program</div>
+        <div class="cert-org">Unnati Foundation</div>
+        <div class="cert-desc">Professional development program focusing on industry-ready skills, communication, project management, and practical technology applications for the modern workplace.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── RESUME ── -->
+<section id="resume">
+  <div class="container">
+    <div class="resume-box reveal">
+      <div class="resume-icon">📄</div>
+      <h3>Want to know more?</h3>
+      <p>Download my resume to get a detailed overview of my skills, experience, education, and all the projects I've worked on.</p>
+      <a href="#" class="btn btn-primary" download>⬇ Download Resume (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">Have a project in mind or want to hire me? I'd love to hear from you.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>I'm currently open to freelance work, internships, and full-time opportunities. Don't hesitate to reach out!</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="c-icon">📞</div>
+              <div>
+                <div class="c-label">Phone</div>
+                <div class="c-value">+91 9024568621</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">✉</div>
+              <div>
+                <div class="c-label">Email</div>
+                <div class="c-value">surajowal41@email.com</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">📍</div>
+              <div>
+                <div class="c-label">Location</div>
+                <div class="c-value">Rajasthan, India</div>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/oswalsuraj" class="social-link" title="GitHub">💻</a>
+            <a href="www.linkedin.com/in/suraj-oswal-1b99ab329" class="social-link" title="LinkedIn">💼</a>
+            <a href="#" class="social-link" title="Twitter">🐦</a>
+            <a href="#" class="social-link" title="Instagram">📸</a>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group" id="fg-name">
+              <label>Full Name *</label>
+              <input type="text" id="f-name" placeholder="Your name" />
+              <span class="form-error">Name is required</span>
+            </div>
+            <div class="form-group" id="fg-email">
+              <label>Email Address *</label>
+              <input type="email" id="f-email" placeholder="your@email.com" />
+              <span class="form-error">Valid email is required</span>
+            </div>
+          </div>
+          <div class="form-group" id="fg-subject">
+            <label>Subject *</label>
+            <input type="text" id="f-subject" placeholder="What's this about?" />
+            <span class="form-error">Subject is required</span>
+          </div>
+          <div class="form-group" id="fg-msg">
+            <label>Message *</label>
+            <textarea id="f-msg" placeholder="Tell me about your project or inquiry..."></textarea>
+            <span class="form-error">Message is required</span>
+          </div>
+          <div class="form-msg" id="formMsg"></div>
+          <button class="btn btn-primary" id="submitBtn" style="width:100%;justify-content:center;">
+            ✉ Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p>Crafted with ❤️ by <a href="#">Suraj Oswal</a> · BCA Graduate & Web Developer · © 2025</p>
+</footer>
+
+<script src="scripts.js"> </script>
+</body>
+</html>
